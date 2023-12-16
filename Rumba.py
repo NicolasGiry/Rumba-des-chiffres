@@ -185,7 +185,7 @@ if nom_fichier == "":
     fichiers = ["rumba.txt"]
 elif nom_fichier == "all":
     all_bool = True
-    fichiers = ["rumba_1_1.txt", "rumba_1_2.txt", "rumba_2_3.txt", "rumba_2_4.txt", "rumba_2_5.txt", "rumba_2_6.txt"]
+    fichiers = ["rumba_1_1.txt", "rumba_1_2.txt", "rumba_2_1.txt", "rumba_2_2.txt", "rumba_2_3.txt", "rumba_2_4.txt", "rumba_2_5.txt", "rumba_2_6.txt"]
 else:
     fichiers = [nom_fichier]
 

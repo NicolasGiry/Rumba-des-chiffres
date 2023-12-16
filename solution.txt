@@ -1,11 +1,88 @@
-rumba.txt
-Etat initial :				[[7, 4, 1], [8, 5, 2], [9], [6, 3]]
-Etat but :				[[7, 4, 1], [8, 5, 2], [9, 6, 3], []]
-Profondeur du noeud :			10
-Plan solution :				[(3, 2), (3, 2), (1, 3), (2, 3), (2, 1), (3, 2), (3, 2), (1, 3), (2, 1), (3, 2)]
-nb de noeuds créés par itération :	[15, 42, 81, 138, 210, 318, 72]
-nb de noeuds développés par itération :	[3, 7, 13, 23, 34, 52, 13]
-nb d'iterations :			7
-temps d'execution :			0.024 sec
+rumba_1_1.txt
+Etat initial :				[[3, 2], [1], [6, 5, 4], [9, 8, 7]]
+Etat but :				[[3, 2, 1], [], [6, 5, 4], [9, 8, 7]]
+Profondeur du noeud :			1
+Plan solution :				[(1, 0)]
+nb de noeuds créés par itération :	[6]
+nb de noeuds développés par itération :	[1]
+nb d'iterations :			1
+temps d'execution :			0.0002 sec
+
+
+rumba_1_2.txt
+Etat initial :				[[3, 2], [1], [6, 5, 4], [9, 8, 7]]
+Etat but :				[[3, 2, 1], [7, 8, 9], [6, 5, 4], []]
+Profondeur du noeud :			4
+Plan solution :				[(1, 0), (3, 1), (3, 1), (3, 1)]
+nb de noeuds créés par itération :	[21]
+nb de noeuds développés par itération :	[4]
+nb d'iterations :			1
+temps d'execution :			0.0006 sec
+
+
+rumba_2_1.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[3, 2, 7], [6, 4, 8], [9, 5, 1], []]
+Profondeur du noeud :			8
+Plan solution :				[(2, 3), (2, 3), (1, 3), (1, 2), (3, 1), (3, 1), (0, 2), (3, 0)]
+nb de noeuds créés par itération :	[3, 36, 204, 48]
+nb de noeuds développés par itération :	[1, 7, 30, 8]
+nb d'iterations :			4
+temps d'execution :			0.0088 sec
+
+
+rumba_2_2.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[3, 1, 2], [6, 4, 5], [9, 7, 8], []]
+Profondeur du noeud :			17
+Plan solution :				[(2, 3), (1, 3), (2, 1), (0, 2), (0, 3), (2, 0), (3, 2), (3, 2), (3, 0), (1, 3), (1, 3), (0, 3), (2, 1), (2, 0), (3, 2), (3, 1), (3, 2)]
+nb de noeuds créés par itération :	[3, 21, 129, 633, 1839, 2865, 5292, 8934, 12891, 14829, 14253, 24891]
+nb de noeuds développés par itération :	[1, 4, 19, 91, 265, 424, 788, 1339, 1941, 2244, 2167, 3773]
+nb d'iterations :			12
+temps d'execution :			18.2548 sec
+
+
+rumba_2_3.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[3, 2, 8], [6, 4], [9, 7, 5], [1]]
+Profondeur du noeud :			7
+Plan solution :				[(0, 3), (1, 3), (2, 3), (2, 0), (3, 2), (1, 2), (3, 1)]
+nb de noeuds créés par itération :	[9, 63, 249]
+nb de noeuds développés par itération :	[2, 10, 36]
+nb d'iterations :			3
+temps d'execution :			0.0072 sec
+
+
+rumba_2_4.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[3, 1, 2], [6, 4, 5], [9, 7, 8], []]
+Profondeur du noeud :			17
+Plan solution :				[(2, 3), (1, 3), (2, 1), (0, 2), (0, 3), (2, 0), (3, 2), (3, 2), (3, 0), (1, 3), (1, 3), (0, 3), (2, 1), (2, 0), (3, 2), (3, 1), (3, 2)]
+nb de noeuds créés par itération :	[3, 21, 129, 633, 1839, 2865, 5292, 8934, 12891, 14829, 14253, 24891]
+nb de noeuds développés par itération :	[1, 4, 19, 91, 265, 424, 788, 1339, 1941, 2244, 2167, 3773]
+nb d'iterations :			12
+temps d'execution :			18.7164 sec
+
+
+rumba_2_5.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[3, 2, 8], [6, 4], [9, 7, 5], [1]]
+Profondeur du noeud :			7
+Plan solution :				[(0, 3), (1, 3), (2, 3), (2, 0), (3, 2), (1, 2), (3, 1)]
+nb de noeuds créés par itération :	[9, 63, 249]
+nb de noeuds développés par itération :	[2, 10, 36]
+nb d'iterations :			3
+temps d'execution :			0.0064 sec
+
+
+rumba_2_6.txt
+Etat initial :				[[3, 2, 1], [6, 5, 4], [9, 8, 7], []]
+Etat but :				[[4, 7, 1], [5, 8, 2], [6, 9, 3], []]
+Profondeur du noeud :			21
+Plan solution :				[(0, 3), (2, 3), (0, 2), (1, 3), (0, 1), (3, 0), (3, 0), (3, 0), (2, 3), (1, 3), (1, 3), (3, 2), (1, 3), (2, 1), (2, 1), (2, 1), (3, 2), (1, 3), (3, 2), (3, 2), (3, 1)]
+nb de noeuds créés par itération :	[3, 15, 63, 276, 945, 2514, 2157, 7710, 10491, 20205, 18687, 28599, 57366, 74703]
+nb de noeuds développés par itération :	[1, 3, 10, 42, 150, 411, 351, 1232, 1689, 3225, 2972, 4566, 9152, 11950]
+nb d'iterations :			14
+temps d'execution :			480.6763 sec
 
 

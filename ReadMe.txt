@@ -9,7 +9,7 @@ pip install colored
 Le fichier Rumba.py contient un programme permettant la résolution d'un jeu de rumba des chiffres.
 Son utilisation est guidée.
 Vous pouvez modifier le fichier rumba.txt pour tester vos propres combinaisons : la première ligne correspond à l'état but, la deuxième à l'état initial et la dernière permet de définir la hauteur de la tige.
-Les fichier rumba_X_Y.txt sont les fichiers contentant les modèles du sujet, avec l'état initial X et l'état but Y.
+Les fichiers rumba_X_Y.txt sont des fichiers de tests. En utilisant la fonctionnalité "all" l'algorithme les résoudra tous.
 
 Le programme utilise un algorithme IDA*, deux heuristiques sont proposées. 
 La première est une heuristique minorante qui compte simplement le nombre d'éléments mal placés par rapport au but.
