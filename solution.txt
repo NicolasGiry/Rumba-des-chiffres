@@ -1,11 +1,11 @@
 rumba.txt
 Etat initial :				[[7, 4, 1], [8, 5, 2], [9], [6, 3]]
 Etat but :				[[7, 4, 1], [8, 5, 2], [9, 6, 3], []]
-Profondeur du noeud :			8
-Plan solution :				[(3, 2), (3, 2), (1, 3), (2, 3), (2, 1), (3, 2), (1, 2), (3, 1)]
-nb de noeuds créés par itération :	[6, 12, 60, 90, 195, 429, 60]
-nb de noeuds développés par itération :	[1, 2, 10, 14, 32, 63, 10]
+Profondeur du noeud :			10
+Plan solution :				[(3, 2), (3, 2), (1, 3), (2, 3), (2, 1), (3, 2), (3, 2), (1, 3), (2, 1), (3, 2)]
+nb de noeuds créés par itération :	[15, 42, 81, 138, 210, 318, 72]
+nb de noeuds développés par itération :	[3, 7, 13, 23, 34, 52, 13]
 nb d'iterations :			7
-temps d'execution :			0.0204 sec
+temps d'execution :			0.024 sec
 
 
